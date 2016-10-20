@@ -36,6 +36,17 @@
 		
 	}
 	
+	// RIPPMENÜÜ VALIK
+	if ( isset($_POST["userInterest"]) && 
+		!empty($_POST["userInterest"])
+	  ) {
+		
+		echo $_POST["userInterest"]."<br>";
+		
+		saveUserInterest(cleanInput($_POST["userInterest"]));
+		
+	}
+	
     $interests = getAllInterests();
 	
 ?>

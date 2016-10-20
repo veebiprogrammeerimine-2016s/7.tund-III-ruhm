@@ -40,7 +40,7 @@
 
 <h1>Data</h1>
 <p>
-	Tere tulemast <?=$_SESSION["userEmail"];?>!
+	Tere tulemast <a href="user.php"><?=$_SESSION["userEmail"];?></a>!
 	<a href="?logout=1">Logi välja</a>
 </p>
 <h2><i>Märkmed</i></h2>
